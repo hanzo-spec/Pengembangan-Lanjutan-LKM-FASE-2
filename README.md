@@ -1590,5 +1590,3 @@ AuthContext
 ```
 
 Jadi inti dari tutorial ini adalah membuat sebuah portofolio React yang mulai terasa seperti aplikasi sungguhan: ada login, status pengguna, navigasi dinamis, halaman yang dilindungi, halaman proyek, dan penanganan 404. Tutorial menutup dengan roadmap seperti deployment, dark mode, autentikasi sungguhan, pencarian proyek, dan automated testing. 
-
-Kalau dokumentasi ini akan kamu masukkan ke GitHub, lebih baik dibuat sebagai README.md yang rapi, bukan sekadar menyalin PDF. Saya juga bisa membuatkan file `README.md` siap upload ke repository GitHub, lengkap dengan struktur folder, penjelasan kode, cara menjalankan project (npm install, npm run dev, npm run build), fitur, dan bagian pembelajaran.
