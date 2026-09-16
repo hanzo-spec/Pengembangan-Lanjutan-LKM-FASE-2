@@ -72,6 +72,7 @@ Namun perlu diperhatikan bahwa login pada tutorial ini belum menggunakan databas
 
 Struktur proyek setelah mengikuti tutorial kurang lebih seperti ini:
 
+```text
 src/
 │
 ├── context/
@@ -101,6 +102,7 @@ src/
 ├── main.jsx
 └── assets/
     └── styles.css
+```
 
 Struktur tersebut merupakan struktur yang ditambahkan/diperbarui dalam tutorial. 
 
