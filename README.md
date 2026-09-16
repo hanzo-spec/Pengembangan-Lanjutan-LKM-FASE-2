@@ -149,9 +149,11 @@ Context memungkinkan data digunakan oleh banyak komponen tanpa harus mengirim da
 
 Contohnya:
 
+```text
 App
  └── Navbar
       └── UserDropdown
+```
 
 Tanpa Context, data user mungkin harus dikirim:
 
@@ -161,11 +163,13 @@ Ini disebut prop drilling.
 
 Dengan Context:
 
+```text
 AuthContext
  ├── Navbar
  ├── Login
  ├── Dashboard
  └── Profile
+```
 
 Semua komponen tersebut bisa mengambil data login secara langsung. Tutorial menjelaskan Context API sebagai cara membagikan status login ke banyak komponen tanpa prop drilling. 
 
@@ -485,6 +489,7 @@ BrowserRouter
 
 Digunakan React Router untuk menangani perpindahan halaman seperti:
 
+```text
 /
  /about
  /projects
@@ -492,6 +497,7 @@ Digunakan React Router untuk menangani perpindahan halaman seperti:
  /login
  /dashboard
  /profile
+```
 
 AuthProvider
 
@@ -1290,6 +1296,7 @@ menjadi satu kolom agar lebih cocok untuk HP.
 
 Bagian paling penting untuk dipahami adalah hubungan semua file.
 
+```text
 main.jsx
                        │
                        ▼
@@ -1320,6 +1327,7 @@ main.jsx
             └───┬───┘
                 ▼
            PrivateRoute
+```
 
 
 ---
@@ -1479,10 +1487,12 @@ Gambar proyek tidak muncul
 
 Pastikan:
 
+```text
 public/
 └── image/
     ├── project-portofolio.png
     └── project-catatan.png
+```
 
 dan path:
 
@@ -1535,6 +1545,7 @@ Checklist ini sesuai dengan bagian pengujian tutorial.
 
 Secara sederhana, proyek ini mengajarkan 5 konsep besar React:
 
+```text
 1. Context API
       ↓
    Data login global
@@ -1554,9 +1565,11 @@ Secara sederhana, proyek ini mengajarkan 5 konsep besar React:
 5. Reusable Component
       ↓
    Komponen dapat digunakan berulang
+```
 
 Dan hubungan terpentingnya:
 
+```text
 AuthContext
     │
     ├── Login
@@ -1574,6 +1587,7 @@ AuthContext
     │
     └── Profile
           └── user
+```
 
 Jadi inti dari tutorial ini adalah membuat sebuah portofolio React yang mulai terasa seperti aplikasi sungguhan: ada login, status pengguna, navigasi dinamis, halaman yang dilindungi, halaman proyek, dan penanganan 404. Tutorial menutup dengan roadmap seperti deployment, dark mode, autentikasi sungguhan, pencarian proyek, dan automated testing. 
 
