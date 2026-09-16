@@ -108,9 +108,8 @@ Struktur tersebut merupakan struktur yang ditambahkan/diperbarui dalam tutorial.
 
 Fungsi setiap folder
 
-Folder/File	Fungsi
-
 ```text
+Folder/File	Fungsi
 context/	Menyimpan Context untuk data global
 component/	Komponen yang dapat digunakan kembali
 pages/	Halaman-halaman website
