@@ -110,6 +110,7 @@ Fungsi setiap folder
 
 Folder/File	Fungsi
 
+```text
 context/	Menyimpan Context untuk data global
 component/	Komponen yang dapat digunakan kembali
 pages/	Halaman-halaman website
@@ -122,6 +123,7 @@ GuestRoute.jsx	Mencegah pengguna yang sudah login membuka halaman login
 App.jsx	Mengatur routing
 main.jsx	Titik awal aplikasi React
 styles.css	Styling website
+```
 
 
 
